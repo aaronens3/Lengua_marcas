@@ -30,29 +30,36 @@
 .menunav {
   width: 100%;
   text-decoration: none;
-  background-color: rgb(0, 6, 92);
+  background-color: #114358 ;
   text-align: center;
   padding: 10px;
   font-weight: bold;
+  font-family: "impact";
+  
 }
 
 .menunav:link{
-  color: rgb(0, 6, 92);
+  color: rgb(132, 0, 255);
   background-color: transparent;
   text-decoration: none;
+  
 }
 
 .menunav li {
   list-style: none;
   display: inline;
   padding: 10px;
-  color: rgb(255, 221, 0);
+  color: rgb(255, 255, 0);
 
 }
 
-.menunav li:hover {
+li a{
+  color: rgb(255, 255, 0);
+}
+
+.menunav li a:hover {
   text-decoration: underline;
-  color: rgb(255, 72, 0);
+  color: rgb(255, 102, 0);
 }
 
 .bodytexto {
@@ -127,18 +134,31 @@ p {
   padding-right: 20%;
 }
 
+.box6 {
+  float: left;
+  width: 25%;
+  padding: 60px;
+  height: 350px;
+  text-align: left;
+  padding-right: 0%;
+  margin-left: 70px;
+}
+
 .clearfix3::after {
 
-  width: 100%;
+  width: 25%;
   content: "";
   clear: both;
   display: table;
   overflow: hidden;
+  padding: 0 auto;
 
 }
 
 .clearfix3 {
+  padding: 0 auto;
   background-color: #658d9f;
+  margin: 0 auto;
 }
 
 #parrafofoot {
@@ -175,6 +195,7 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   text-align: left;
   padding: 50px;
+  
 }
 
 .textfooter {
@@ -189,16 +210,17 @@ table {
   border-collapse: collapse;
   font-family: Arial, Helvetica, sans-serif;
   border: white;
-  text-align: justify;
+  text-align: left;
   margin-bottom: 100px;
-
+  line-height: 30px;
+  font-size: 12
+px;
 
 }
 
 .th {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  
 }
 
 tr:nth-last-child(odd) {
@@ -210,4 +232,80 @@ caption {
   font-size: 24px;
   background-color: #0b3141;
   color: white;
+}
+
+tr{
+  margin: 100px;
+  padding: 100px;
+}
+
+.Programacion{
+  font-size: 20px;
+  padding-top: 6%;
+
+}
+
+.h3Pro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.Programacion2{
+  font-family: "impact";
+  font-style: normal;
+  font-size: 18px;
+  padding-top: 6%;
+  font-weight: bold;
+}
+
+.clearfix4::after {
+
+  width: 100%;
+  content: "";
+  clear: both;
+  display: table;
+  overflow: hidden;
+  padding: 0 auto;
+  
+
+}
+
+.clearfix4 {
+  padding: 0 auto;
+  background-color: #658d9f;
+  margin: 0 auto;
+}
+
+.inscript{
+  width: 100%;
+  height: 10px;
+  float: left;
+}
+
+fieldset {
+  background-color: #eeeeee;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+
+.inscript2{
+  width: 100%;
+  height: 10px;
+  float: left;
+}
+form{
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 90px;
+  
 }
